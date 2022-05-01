@@ -7,7 +7,8 @@ import { Swiper, SwiperItem } from "./src/components/swiper";
 import { FlexItem, Flex } from "./src/components/flex";
 import { Image } from "./src/components/image";
 import { Cell, CellGroup } from "./src/components/cell";
-import {Field} from "./src/components/field"
+import { Field } from "./src/components/field";
+import { CheckBox, CheckBoxGroup } from "./src/components/checkbox";
 // 所有组件列表
 const components = [
   Button,
@@ -22,7 +23,9 @@ const components = [
   Image,
   Cell,
   CellGroup,
-  Field
+  Field,
+  CheckBox,
+  CheckBoxGroup,
 ];
 
 // 定义 install 方法， App 作为参数
@@ -44,7 +47,9 @@ export {
   Image,
   Cell,
   CellGroup,
-  Field
+  Field,
+  CheckBox,
+  CheckBoxGroup,
 };
 
 export default {

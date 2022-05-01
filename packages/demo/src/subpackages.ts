@@ -61,6 +61,11 @@ export default [
         name: "Field",
         path: "field/index",
       },
+      {
+        title: "CheckBox 复选框",
+        name: "CheckBox",
+        path: "checkbox/index",
+      },
     ],
   },
   {

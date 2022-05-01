@@ -1,0 +1,12 @@
+@import "../styles/prefix";
+@import "../styles/variables";
+
+$checkbox-active-color:$primary-color; 
+$checkbox-border-color:$border-color;
+$checkbox-border-width:$border-width-base;
+$checkbox-disabled-opacity: $disabled-opacity;
+$checkbox-disabled-background-color: $gray-4;
+$checkbox-disabled-border-color: $gray-5;
+$checkbox-disabled-border-radius:$border-radius-max;
+$checkbox-height:40rpx;
+$checkbox-width:40rpx;

@@ -2,22 +2,32 @@
 	"easycom": {
 		"^u-(.*)": ".././../core/components/$1/$1.vue"
 	},
-	"pages": [{
+	"pages": [
+		{
 			"path": "pages/index/index",
 			"style": {
 				"navigationBarTitleText": "unitify-ui"
 			}
-		}, {
+		},
+		{
 			"path": "pages/basic/cell/index",
 			"style": {
 				"navigationBarTitleText": "cell"
 			}
-		}, {
+		},
+		{
 			"path": "pages/from/field/index",
 			"style": {
 				"navigationBarTitleText": "field"
 			}
-		}, {
+		},
+		{
+			"path": "pages/from/checkbox/index",
+			"style": {
+				"navigationBarTitleText": "checkbox"
+			}
+		},
+		{
 			"path": "pages/basic/image/index",
 			"style": {
 				"navigationBarTitleText": "image"
@@ -28,17 +38,20 @@
 			"style": {
 				"navigationBarTitleText": "button"
 			}
-		}, {
+		},
+		{
 			"path": "pages/basic/flex/index",
 			"style": {
 				"navigationBarTitleText": "flex"
 			}
-		}, {
+		},
+		{
 			"path": "pages/display/swiper/index",
 			"style": {
 				"navigationBarTitleText": "swiper"
 			}
-		}, {
+		},
+		{
 			"path": "pages/basic/icon/index",
 			"style": {
 				"navigationBarTitleText": "icon"

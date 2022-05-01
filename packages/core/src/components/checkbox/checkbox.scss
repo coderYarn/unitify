@@ -1,0 +1,53 @@
+@import "./variables";
+
+:root {
+  --checkbox-active-color: $checkbox-active-color;
+  --checkbox-height: 40rpx;
+  --checkbox-width: 40rpx
+}
+
+.#{$component-prefix}checkbox {
+  box-sizing: border-box;
+  align-items: center;
+  display: flex;
+
+  &--content {
+    margin-right: 10rpx;
+    width: var(--checkbox-width, $checkbox-width);
+    height: var(--checkbox-height, $checkbox-height);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: $checkbox-border-color $checkbox-border-width solid;
+
+    &--active {
+
+      border: var(--checkbox-active-color, $checkbox-active-color) $checkbox-border-width solid;
+      background-color: var(--checkbox-active-color, $checkbox-active-color);
+    }
+
+
+
+    &--round {
+      border-radius: $checkbox-disabled-border-radius;
+    }
+
+    &--shape {
+      border-radius: 0;
+    }
+  }
+
+  &--disabled {
+    opacity: $checkbox-disabled-opacity;
+
+    .unitify-checkbox--content--active {
+      border: $checkbox-disabled-border-color $checkbox-border-width solid;
+      background-color: $checkbox-disabled-background-color;
+    }
+
+    .unitify-checkbox--content {
+      border: $checkbox-disabled-border-color $checkbox-border-width solid;
+      background-color: $checkbox-disabled-background-color;
+    }
+  }
+}
